@@ -1,0 +1,25 @@
+# Nmap 7.80SVN scan initiated Sat Aug 29 14:44:47 2020 as: nmap -sV -O -p 1-4444 -sC -o scan 192.168.123.104
+Nmap scan report for 192.168.123.104
+Host is up (0.00028s latency).
+Not shown: 4442 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.4p1 Debian 10+deb9u6 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 49:e6:fa:4c:d5:60:06:3b:c0:a8:c9:cc:00:10:7e:04 (RSA)
+|   256 29:1b:39:69:32:aa:ae:9f:72:83:29:d4:27:db:f8:af (ECDSA)
+|_  256 a0:05:9e:82:bc:9d:09:ce:8e:c5:40:b2:b2:93:c6:53 (ED25519)
+80/tcp open  http    Apache httpd 2.4.25 ((Debian))
+| http-robots.txt: 1 disallowed entry 
+|_/notes.txt
+|_http-server-header: Apache/2.4.25 (Debian)
+|_http-title: Apache2 Debian Default Page: It works
+MAC Address: 08:00:27:93:64:FE (Oracle VirtualBox virtual NIC)
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.9
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Aug 29 14:44:55 2020 -- 1 IP address (1 host up) scanned in 8.07 seconds

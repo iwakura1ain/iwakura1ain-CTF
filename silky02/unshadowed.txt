@@ -1,0 +1,2 @@
+root:$6$L69RL59x$ONQl06MP37LfjyFBGlQ5TYtdDqEZEe0yIZIuTHASQG/dgH3Te0fJII/Wtdbu0PA3D/RTxJURc.Ses60j0GFyF/:0:0:root:/root:/bin/bash
+silky:$6$F0T5vQMg$BKnwGPZ17UHvqZLOVFVCUh6CrsZ5Eu8BLT1/uX3h44wtEoDt9qA2dYL04CMUXHw2Km9H.tttNiyaCHwQQ..2T0:1000:1000:silky,,,:/home/silky:/bin/bash

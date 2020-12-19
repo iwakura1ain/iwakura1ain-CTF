@@ -1,0 +1,12 @@
+POSITIVE: {'username': '/usr/bin/id', 'password': 'silky'}
+POSITIVE: {'username': 'id', 'password': 'silky'}
+POSITIVE: {'username': 'ss;/usr/bin/id', 'password': 'silky'}
+POSITIVE: {'username': 'a;id', 'password': 'silky'}
+POSITIVE: {'username': 'a;id;', 'password': 'silky'}
+POSITIVE: {'username': 'a|id', 'password': 'silky'}
+POSITIVE: {'username': 'a|id', 'password': 'silky'}
+POSITIVE: {'username': 'a;/usr/bin/id', 'password': 'silky'}
+POSITIVE: {'username': 'a;/usr/bin/id;', 'password': 'silky'}
+POSITIVE: {'username': 'a|/usr/bin/id', 'password': 'silky'}
+POSITIVE: {'username': 'a|/usr/bin/id', 'password': 'silky'}
+POSITIVE: {'username': '$;/usr/bin/id', 'password': 'silky'}

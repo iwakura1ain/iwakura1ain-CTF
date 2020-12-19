@@ -1,0 +1,31 @@
+
+
+s1lKy#5 [STATUS] attack finished for 192.168.123.104 
+
+Distro: debian,Version: Debian GNU/Linux 9  ,
+Kernel: Linux Silky-CTF 4.9.0-8-amd64
+#1 SMP Debian 4.9.144-3.1 (2019-02-19)
+x86_64 GNU/Linux
+
+
+suid executables: 
+//bin/su
+ //bin/ping
+ //bin/mount
+ //bin/umount
+ //bin/ntfs-3g
+ //bin/fusermount
+ //usr/bin/newgrp 
+//usr/bin/sky
+//usr/bin/chfn
+ //usr/bin/passwd
+ //usr/bin/pkexec
+ //usr/bin/gpasswd
+ //usr/bin/chsh 
+//usr/lib/dbus-1.0/dbus-daemon-launch-helper
+//usr/lib/policykit-1/polkit-agent-helper-1
+//usr/lib/openssh/ssh-keysign 
+//usr/lib/spice-gtk/spice-client-glib-usb-acl-helper
+//usr/lib/eject/dmcrypt-get-device
+//usr/lib/xorg/Xorg.wrap
+//usr/sbin/pppd

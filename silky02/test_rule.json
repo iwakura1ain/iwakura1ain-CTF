@@ -1,0 +1,7 @@
+[
+    {
+        "base" : ["id"],
+        "type" : "MatchStringOutput",
+        "MatchStringOutput" : ["uid=", "gid=", "groups="]
+    }
+]

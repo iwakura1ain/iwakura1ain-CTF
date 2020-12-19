@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>paragraphs work too</p>
+
+<?php
+echo "it worked!";
+
+?>
+
+</body>
+</html>
+

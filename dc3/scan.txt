@@ -1,0 +1,79 @@
+# Nmap 7.80SVN scan initiated Sat Nov  7 15:42:41 2020 as: nmap -sV -O -sC -o scan 192.168.123.113
+Nmap scan report for 192.168.123.113
+Host is up (0.00010s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))
+|_http-generator: Joomla! - Open Source Content Management
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+|_http-title: Home
+MAC Address: 08:00:27:E5:7F:1D (Oracle VirtualBox virtual NIC)
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.9
+Network Distance: 1 hop
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Nov  7 15:42:49 2020 -- 1 IP address (1 host up) scanned in 8.40 seconds
+dirb.txt
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb.txt
+START_TIME: Sat Nov  7 15:57:21 2020
+URL_BASE: http://192.168.123.113/
+WORDLIST_FILES: /home/dks/HDD/wordlist/dirb/common.txt
+OPTION: Not Recursive
+EXTENSIONS_FILE: /home/dks/HDD/wordlist/dirb/extensions_common.txt | ()(.js)(.asp)(.aspx)(.bat)(.c)(.cfm)(.cgi)(.com)(.dll)(.exe)(.htm)(.html)(.inc)(.jhtml)(.jsa)(.jsp)(.log)(.mdb)(.nsf)(.php)(.phtml)(.pl)(.reg)(.sh)(.shtml)(.sql)(.txt)(.xml)(/) [NUM = 30]
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://192.168.123.113/ ----
+==> DIRECTORY: http://192.168.123.113/administrator/
++ http://192.168.123.113/administrator/ (CODE:200|SIZE:4806)
+==> DIRECTORY: http://192.168.123.113/bin/
++ http://192.168.123.113/bin/ (CODE:200|SIZE:31)
+==> DIRECTORY: http://192.168.123.113/cache/
++ http://192.168.123.113/cache/ (CODE:200|SIZE:31)
+==> DIRECTORY: http://192.168.123.113/components/
++ http://192.168.123.113/components/ (CODE:200|SIZE:31)
++ http://192.168.123.113/configuration.php (CODE:200|SIZE:0)
++ http://192.168.123.113/icons/ (CODE:403|SIZE:296)
+==> DIRECTORY: http://192.168.123.113/images/
++ http://192.168.123.113/images/ (CODE:200|SIZE:31)
+==> DIRECTORY: http://192.168.123.113/includes/
++ http://192.168.123.113/includes/ (CODE:200|SIZE:31)
++ http://192.168.123.113/index.php (CODE:200|SIZE:7110)
++ http://192.168.123.113/index.php (CODE:200|SIZE:7110)
++ http://192.168.123.113/index.php/ (CODE:200|SIZE:7111)
+==> DIRECTORY: http://192.168.123.113/language/
++ http://192.168.123.113/language/ (CODE:200|SIZE:31)
+==> DIRECTORY: http://192.168.123.113/layouts/
++ http://192.168.123.113/layouts/ (CODE:200|SIZE:31)
+==> DIRECTORY: http://192.168.123.113/libraries/
++ http://192.168.123.113/libraries/ (CODE:200|SIZE:31)
++ http://192.168.123.113/LICENSE.txt (CODE:200|SIZE:18092)
+==> DIRECTORY: http://192.168.123.113/media/
++ http://192.168.123.113/media/ (CODE:200|SIZE:31)
+==> DIRECTORY: http://192.168.123.113/modules/
++ http://192.168.123.113/modules/ (CODE:200|SIZE:31)
+==> DIRECTORY: http://192.168.123.113/plugins/
++ http://192.168.123.113/plugins/ (CODE:200|SIZE:31)
++ http://192.168.123.113/README.txt (CODE:200|SIZE:4494)
++ http://192.168.123.113/server-status (CODE:403|SIZE:303)
++ http://192.168.123.113/server-status/ (CODE:403|SIZE:304)
+==> DIRECTORY: http://192.168.123.113/templates/
++ http://192.168.123.113/templates/ (CODE:200|SIZE:31)
+==> DIRECTORY: http://192.168.123.113/tmp/
++ http://192.168.123.113/tmp/ (CODE:200|SIZE:31)
++ http://192.168.123.113/web.config.txt (CODE:200|SIZE:1690)
+
+-----------------
+END_TIME: Sat Nov  7 15:57:42 2020
+DOWNLOADED: 138360 - FOUND: 24
