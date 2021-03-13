@@ -1,0 +1,42 @@
+-----------------
+DIRB v2.22
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb.txt
+START_TIME: Sun Mar  7 01:06:59 2021
+URL_BASE: http://192.168.99.51/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://192.168.99.51/ ----
+==> DIRECTORY: http://192.168.99.51/css/
+==> DIRECTORY: http://192.168.99.51/fonts/
+==> DIRECTORY: http://192.168.99.51/images/
++ http://192.168.99.51/index.html (CODE:200|SIZE:3870)
+==> DIRECTORY: http://192.168.99.51/js/
++ http://192.168.99.51/robots.txt (CODE:200|SIZE:459)
++ http://192.168.99.51/server-status (CODE:403|SIZE:278)
+
+---- Entering directory: http://192.168.99.51/css/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+---- Entering directory: http://192.168.99.51/fonts/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+---- Entering directory: http://192.168.99.51/images/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+---- Entering directory: http://192.168.99.51/js/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+-----------------
+END_TIME: Sun Mar  7 01:07:00 2021
+DOWNLOADED: 4612 - FOUND: 3
