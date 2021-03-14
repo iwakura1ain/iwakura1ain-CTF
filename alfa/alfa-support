@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,100,200,300,500,600,800,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps:400,700' rel='stylesheet' type='text/css'>
+    <link href="maquillaje.css" rel="stylesheet">
+    <title>Alfa IT Solutions</title>
+</head>
+
+    <main class="main">
+        <div class="portada">
+
+            <header class="header">
+                <div class="container-logo-nav">
+                    <a href="index.html"class="logo">Alfa IT Solutions</a>
+                    <nav class="navi">
+                        <ul class="show">
+			                <li><a href="#" target="blank"><img class="icon-novedades" src="" width="25px">Home</a></li>
+                            <li><a href="#" target="blank"><img class="icon-novedades" src="" width="25px">Security</a></li>
+                            <li><a href="#" target="blank"><img class="icon" src="" width="25px">Support</a></li>
+                            <li><a href="#" target="blank"><img class="icon-live" src="" width="25px">About</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <div class="titulo">
+                <h3>Intranet Chat Support</h3>
+            </div>
+
+            <div class="chat">
+                
+                <div class="texto1">
+                    <p><span class="font1" >◈Thomas:➤</span>Hi! I am Thomas Miller, employee number 300197 <span class="tick1">✔✔</span></p><br>
+                </div>
+
+                <div class="texto2">
+                    <p><span class="font2" >◈Alfa IT Support:➤</span>Good morning! nice to greet you Thomas, ¿How can help you? <span class="tick2">✔✔</span></p><br>
+                </div>
+
+                <div class="texto3">
+                    <p><span class="font3" >◈Thomas:➤</span>I have a problem with my password, I partially forgot it, I only remember that it is the name of my pet followed by 3 numerical digits. Could you reset my password? <span class="tick3">✔✔</span></p><br>
+                </div>
+
+                <div class="texto4">
+                    <p><span class="font4">◈Alfa IT Support:➤</span>With pleasure Thomas, in a maximum of 24-48 hours you will receive an SMS on your corporate phone with your new temporary password, which you will have to change later. regards. <span class="tick4">✔✔</span></p><br>
+                </div>
+
+                <div class="texto5">
+                    <p><span class="font5">◈Thomas:➤</span>thank you very much, regards <span class="tick5">✔✔</span></p><br>
+                </div>
+
+                <div class="caja" >
+                    <textarea class="caja-texto" name="caja-mensaje" size="20" rows="1" cols="80"></textarea>
+                    <a class="boton" href="#" target="blank" size="60">Enviar</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+</body>
