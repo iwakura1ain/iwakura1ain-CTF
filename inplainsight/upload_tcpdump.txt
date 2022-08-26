@@ -1,0 +1,33 @@
+        POST /748AD6CCD32E4E52718445BB1CADC01EB08A0DF6/upload.php HTTP/1.0
+        Host: 192.168.99.51
+        Accept: text/html, text/plain, text/sgml, text/css, application/xhtml+xml, */*;q=0.01
+        Accept-Encoding: gzip, compress, bzip2
+        Accept-Language: en
+        Pragma: no-cache
+        Cache-Control: no-cache
+        User-Agent: Lynx/2.8.9dev.16 libwww-FM/2.14 SSL-MM/1.4.1 GNUTLS/3.5.17
+        Referer: http://192.168.99.51/748AD6CCD32E4E52718445BB1CADC01EB08A0DF6/
+        Content-type: multipart/form-data; boundary=LYNX
+        Content-length: 1449
+
+        --LYNX
+        Content-Disposition: form-data; name="fileToUpload"; filename="/tmp/t1.png"
+        Content-Type: image/png
+
+23:54:26.726574 IP (tos 0x0, ttl 64, id 22330, offset 0, flags [DF], proto TCP (6), length 552)
+    dks-desktop.40794 > 192.168.99.51.http: Flags [P.], cksum 0xc517 (correct), seq 1449:1949, ack 1, win 502, options [nop,nop,TS val 1607520792 $
+cr 1524839448], length 500: HTTP
+23:54:26.726874 IP (tos 0x0, ttl 64, id 18962, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.99.51.http > dks-desktop.40794: Flags [.], cksum 0x1c22 (correct), seq 1, ack 1949, win 496, options [nop,nop,TS val 1524839449 ecr 16$
+7520792], length 0
+23:54:26.727363 IP (tos 0x0, ttl 64, id 18963, offset 0, flags [DF], proto TCP (6), length 346)
+    192.168.99.51.http > dks-desktop.40794: Flags [P.], cksum 0x150a (correct), seq 1:295, ack 1949, win 501, options [nop,nop,TS val 1524839449 e$
+r 1607520792], length 294: HTTP, length: 294
+        HTTP/1.1 200 OK
+        Date: Sun, 14 Mar 2021 14:54:25 GMT
+        Server: Apache/2.4.41 (Ubuntu)
+        Vary: Accept-Encoding
+        Content-Encoding: gzip
+        Content-Length: 80
+        Connection: close
+        Content-Type: text/html; charset=UTF-8

